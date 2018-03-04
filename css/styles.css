@@ -1,0 +1,156 @@
+.wrapper {
+  border-top:30px solid #213465;
+  font-family:Georgia, serif;
+}
+
+.pull-right {
+  float:right;
+}
+
+.logo {
+  max-width:200px;
+}
+
+header {
+  display:flex;
+  padding-left:100px;
+}
+
+.navigation {
+  height:100px;
+  margin-left:25px;
+  flex-grow: 10;
+  text-align:right;
+  border-bottom:1px solid #213465;
+}
+
+.social {
+  height:50px;
+  margin-bottom:0px;
+  margin-top:25px;
+  margin-right:20px;
+}
+
+.social img {
+  max-width:25px;
+}
+
+.social a {
+  margin-right:10px;
+}
+
+.main-nav {
+  padding-right:30px;
+  border-bottom:1px solid #213465;
+  margin-left:10px;
+}
+
+.main-nav a {
+  color:#f47a26;
+  text-decoration:none;
+  margin-right:10px;
+  padding:5px;
+}
+
+.main-nav a:hover {
+  text-decoration:underline;
+  color:#213465;
+}
+
+.main-nav a.active {
+  background:#213465;
+  color:#fff;
+}
+
+h1 {
+  background:#213465;
+  color:#fff;
+  font-size:20px;
+  padding:5px 100px;
+}
+
+.content {
+  padding:0px 100px;
+  color:#223466;
+}
+
+.callout {
+  width:150px;
+  background:#f47a26;
+  color:#fff;
+  padding-top:10px;
+  font-size:12px;
+  padding-bottom:10px;
+}
+
+.callout form {
+  margin:0px;
+  padding:0px;
+}
+
+.callout.pull-right {
+  margin-left:5px;
+}
+
+.callout button {
+  width:90%;
+  border:0px;
+  margin:0px auto;
+  display:block;
+  padding:0px;
+  background:#213465;
+  color:#fff;
+  padding:5px 0px;
+}
+
+.callout p {
+  margin:10px 5%;
+}
+
+footer {
+  background:#223466;
+  color:#fff;
+  padding:0px 50px;
+  background-image: url('../images/logo-small.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px 39px;
+  height:50px;
+  margin-top:25px;
+}
+
+footer nav {
+  margin-right:25px;
+  line-height:38px;
+  font-size:10px;
+}
+
+footer a {
+  color:#fff;
+  text-decoration:none;
+}
+
+footer a:hover {
+  text-decoration:underline;
+}
+
+.logo-small {
+  max-width:50px;
+}
+
+.sponsor {
+  text-align:right;
+  font-size:12px;
+  max-width:250px;
+  float:right;
+  font-size:10px;
+}
+
+.sponsor p {
+  border:1px solid #fff;
+  border-radius:10px;
+  display:inline-block;
+  padding:5px 8px;
+  margin:0px;
+  margin-top:5px;
+}
