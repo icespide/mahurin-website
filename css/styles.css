@@ -14,6 +14,7 @@
 header {
   display:flex;
   padding-left:100px;
+  padding-bottom:20px;
 }
 
 .navigation {
@@ -22,6 +23,7 @@ header {
   flex-grow: 10;
   text-align:right;
   border-bottom:1px solid #213465;
+  font-weight:bolder;
 }
 
 .social {
@@ -68,7 +70,7 @@ header {
 }
 .hero-photo img {
   width:100%;
-  max-width:800px;
+  max-width:1000px;
   display:block;
   margin:0px auto;
 }
@@ -102,6 +104,9 @@ h1 {
   display:flex;
   justify-content: space-between;
   width:100%;
+  max-width:700px;
+  margin:0px auto;
+  margin-top:50px;
 }
 
 .pull-left {
@@ -193,6 +198,7 @@ footer {
   background-size: 50px 39px;
   height:50px;
   margin-top:25px;
+  padding-top:15px;
 }
 
 footer nav {
