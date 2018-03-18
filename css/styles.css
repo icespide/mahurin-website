@@ -62,16 +62,38 @@ header {
   color:#fff;
 }
 
+.hero-photo {
+  margin:0px;
+  padding:0px;
+}
+.hero-photo img {
+  width:100%;
+  max-width:800px;
+  display:block;
+  margin:0px auto;
+}
+
 h1 {
   background:#213465;
   color:#fff;
   font-size:20px;
   padding:5px 100px;
+  margin-top:0px;
 }
 
 .content {
   padding:0px 100px;
   color:#223466;
+}
+
+.content.home {
+  font-size:20px;
+}
+
+.home-callouts {
+  display:flex;
+  justify-content: space-between;
+  width:100%;
 }
 
 .pull-left {
@@ -101,7 +123,7 @@ h1 {
   margin-left:5px;
 }
 
-.callout button {
+.callout button, .callout a {
   width:90%;
   border:0px;
   margin:0px auto;
@@ -110,6 +132,8 @@ h1 {
   background:#213465;
   color:#fff;
   padding:5px 0px;
+  text-align:center;
+  text-decoration:none;
 }
 
 .callout p {
@@ -212,6 +236,15 @@ and (max-width : 650px) {
   .content-photo.pull-left {
     float:none;
     max-width:80%;
+  }
+
+  .home-callouts {
+    display:block;
+  }
+
+  .home-callouts .callout {
+    margin:0px auto;
+    margin-bottom:10px;
   }
 
   footer {
