@@ -86,6 +86,14 @@ h1 {
   color:#223466;
 }
 
+.content.with-columns {
+  display:flex;
+}
+
+.content.with-columns section {
+  margin-right:30px;
+}
+
 .content.home {
   font-size:20px;
 }
@@ -123,6 +131,10 @@ h1 {
   margin-left:5px;
 }
 
+.callout.centered {
+  margin:0px auto;
+}
+
 .callout button, .callout a {
   width:90%;
   border:0px;
@@ -134,6 +146,37 @@ h1 {
   padding:5px 0px;
   text-align:center;
   text-decoration:none;
+}
+
+.contact-form {
+  min-width:300px;
+}
+
+.contact-form label {
+  display:block;
+  font-size:12px;
+}
+
+input, textarea {
+  display:block;
+  width:100%;
+  border:1px solid #213465;
+  height:20px;
+}
+
+textarea {
+  height:100px;
+}
+
+.contact-form button {
+  display:block;
+  border:none;
+  margin:0px auto;
+  padding:0px;
+  color:#fff;
+  background:#f47a26;
+  width:150px;
+  padding:5px;
 }
 
 .callout p {
@@ -231,6 +274,15 @@ and (max-width : 650px) {
 
   .content {
     padding:0px 20px;
+  }
+
+  .content.with-columns {
+    display:block;
+  }
+
+  .contact-form {
+    width:100%;
+    min-width:inherit;
   }
 
   .content-photo.pull-left {
