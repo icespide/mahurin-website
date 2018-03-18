@@ -74,6 +74,15 @@ h1 {
   color:#223466;
 }
 
+.pull-left {
+  float:left;
+}
+
+.content-photo.pull-left {
+  margin-right:15px;
+  margin-bottom:15px;
+}
+
 .callout {
   width:150px;
   background:#f47a26;
@@ -198,6 +207,11 @@ and (max-width : 650px) {
 
   .content {
     padding:0px 20px;
+  }
+
+  .content-photo.pull-left {
+    float:none;
+    max-width:80%;
   }
 
   footer {
