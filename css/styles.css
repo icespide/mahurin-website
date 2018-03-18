@@ -97,6 +97,11 @@ h1 {
   color:#223466;
 }
 
+.content a {
+  color: #f47a26;
+  
+}
+
 .content.with-columns {
   display:flex;
 }
