@@ -352,3 +352,7 @@ and (max-width : 650px) {
 .news-archive-link a:hover {
   text-decoration:underline;
 }
+
+.news-callout {
+  border-top:2px dashed #223466;
+}
