@@ -93,13 +93,13 @@ h1 {
 }
 
 .content {
-  padding:0px 100px;
+  padding:0px 10%;
   color:#223466;
 }
 
 .content a {
   color: #f47a26;
-  
+
 }
 
 .content.with-columns {
@@ -329,4 +329,26 @@ and (max-width : 650px) {
   .sponsor {
     float:none;
   }
+}
+
+.news-entry {
+  border-bottom:2px dashed #223466;
+  display:flex;
+  margin: 0 -10px;
+  margin-bottom:25px;
+  padding-bottom:25px;
+}
+
+.news-content, .news-image {
+  margin:0 10px;
+}
+
+.news-archive-link a {
+  font-weight:bold;
+  text-decoration:none;
+  color:#223466;
+}
+
+.news-archive-link a:hover {
+  text-decoration:underline;
 }
