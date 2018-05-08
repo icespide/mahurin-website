@@ -168,6 +168,14 @@ h1 {
   text-decoration:none;
 }
 
+.callout button.text-button {
+  background:none;
+  width:inherit;
+  display:inline;
+  padding:0px;
+  color:#fff;
+}
+
 .contact-form {
   min-width:300px;
 }
@@ -335,13 +343,24 @@ and (max-width : 650px) {
 .news-entry {
   border-bottom:2px dashed #223466;
   display:flex;
+  flex-wrap:wrap;
   margin: 0 -10px;
   margin-bottom:25px;
   padding-bottom:25px;
 }
 
+.news-content {
+  width:60%;
+}
+
 .news-content, .news-image {
   margin:0 10px;
+}
+
+.news-center-image {
+  width:100%;
+  text-align:center;
+  padding:10px 0px;
 }
 
 .news-archive-link a {
